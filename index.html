@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar de Gustavo" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Me chamo Friske</p>
+        <h1>Eu estudo em exatas</h1>
+        <p>Olá, meu nome é Gustavo Friske, tenho 15 anos e estou cursando o 2º ano do Ensino Médio no Colégio Estadual Leonilda Papen.
+            Sou da área de Exatas e pratico handebol. 
+        </p>
+        <p>Minhas principais habilidades :</p>
+        <div>
+            <p class="badge bg-secondary">handebol</p>
+            <p class="badge bg-secondary">parte eletrica</p>
+            <p class="badge bg-secondary">alura</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus destaques</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto1.png" class="card-img-top" alt="Imagem do projeto no figma">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu trabalho</h5>
+                        <p class="card-text"> Sou dedicado e responsável no trabalho remunerado, sempre cumprindo meus deveres com pontualidade, foco e comprometimento. Busco constantemente evoluir e entregar resultados de qualidade.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">conheça o lugar que trabalho</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Aluraflix">
+                    <div class="card-body">
+                        <h5 class="card-title"> Aluraflix </h5>
+                        <p class="card-text">
+                            é um projeto pessoal que visa replicar uma interface de catálogo de vídeos, inspirado na plataforma de streaming Netflix. Desenvolvido com HTML e CSS. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title"> Figma: Protótipo
+                        </h5>
+                        <p class="card-text"> 
+                            Protótipo desenvolvido no Figma para um catálogo de vídeos, com foco em design responsivo e experiência do usuário. O projeto inclui navegação interativa e componentes reutilizáveis.
+                           
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">conheça o lugar que trabalho </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Atualmente trabalho no Beckinha, um local conhecido pelo ambiente dinâmico e pela colaboração entre os colegas. Lá, desempenho minhas funções com responsabilidade e dedicação, sempre buscando oferecer um bom atendimento e contribuir para o bom funcionamento do espaço. Tenho aprendido muito sobre compromisso, organização e trabalho em equipe. Essa experiência tem sido fundamental para meu crescimento pessoal e profissional. Estou sempre disposto a ajudar e aprender mais a cada dia.</p>
+                    <img src="img/projeto1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://maps.app.goo.gl/DAhjbn1TMzwqF1az8">Ver localização</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Aluraflix </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> 
+                        Este projeto é uma réplica simples inspirada na interface da Netflix, desenvolvida com HTML e CSS, com o objetivo de praticar e consolidar conhecimentos em desenvolvimento front-end e design responsivo. A proposta foi criada durante meus estudos com base em cursos da Alura.
+
+                        Principais aprendizados:
+                        
+                        Estruturação de páginas com HTML5
+                        
+                        Estilização avançada com CSS3
+                        
+                        Responsividade e adaptação para diferentes dispositivos
+                        
+                        Organização de código e boas práticas em desenvolvimento web
+                        
+                        Este projeto demonstra minha capacidade de transformar ideias em interfaces funcionais e é um passo importante na minha jornada como desenvolvedor.
+                        
+                        
+
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto alura flix">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/FriskeLeonilda/aluraflix18-11">Ver projeto 
+                        completo </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu figma</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Este projeto consiste em um protótipo interativo de um catálogo de vídeos, desenvolvido no Figma, com foco em design responsivo e experiência do usuário. A interface foi projetada para dispositivos móveis, utilizando grids e componentes reutilizáveis para garantir consistência visual e funcional.
+
+                        Principais características:
+                        
+                        Design responsivo: Layout adaptável a diferentes tamanhos de tela.
+                        
+                        Componentes reutilizáveis: Uso de componentes para manter a consistência e facilitar futuras atualizações.
+                        
+                        Prototipagem interativa: Navegação entre telas com transições suaves, simulando a interação real do usuário.
+                        
+                        Este projeto demonstra minha habilidade em criar interfaces funcionais e esteticamente agradáveis, além de evidenciar meu domínio na utilização do Figma para prototipagem interativa.
+                        
+                        
+                        
+
+                    </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.figma.com/design/wYgIIIuS52owJRajNrnjRx/Untitled?node-id=0-1&p=f&t=Sevv9wBDvEn6MZol-0">Ver projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Acesse</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/FriskeLeonilda">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Gustavo e Kaio</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
